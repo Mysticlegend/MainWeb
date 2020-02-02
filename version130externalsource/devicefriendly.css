@@ -1,0 +1,78 @@
+/* For Desktops and Laptops*/
+@media only screen and (max-width : 1280px) {
+/* If device width is less than or equal to 1280px */
+body {
+ margin: 50px; 
+ font-family: Arial;
+ font-weight: 300;
+ line-height: 1.75;
+ font-size: 1.75em;
+ color: black;
+ background-color: white;
+ z-index: 0
+}
+
+/* For Tablets*/
+@media only screen and (max-width : 1024px) {
+body {
+ margin: 40px; 
+ font-family: Arial;
+ font-weight: 300;
+ line-height: 1.5;
+ font-size: 1.5em;
+ color: black;
+ background-color: white;
+ z-index: 0
+}
+
+/* For Small Tablets*/
+@media only screen and (max-width : 768px) {
+body {
+ margin: 30px; 
+ font-family: Arial;
+ font-weight: 300;
+ line-height: 1.25;
+ font-size: 1.3em;
+ color: black;
+ background-color: white;
+ z-index: 0
+}
+
+/*For iPhones */
+@media only screen and (max-width : 640px) {
+body {
+ margin: 25px; 
+ font-family: Arial;
+ font-weight: 300;
+ line-height: 1;
+ font-size: 1.1em;
+ color: black;
+ background-color: white;
+ z-index: 0
+}
+
+/* Mobiles */
+@media only screen and (max-width : 480px) {
+body {
+ margin: 20px; 
+ font-family: Arial;
+ font-weight: 300;
+ line-height: 0.8;
+ font-size: 0.9em;
+ color: black;
+ background-color: white;
+ z-index: 0
+}
+
+/* Small Mobiles */
+@media only screen and (max-width : 320px) {
+body {
+ margin: 15px; 
+ font-family: Arial;
+ font-weight: 300;
+ line-height: 0.6;
+ font-size: 0.7em;
+ color: black;
+ background-color: white;
+ z-index: 0
+}
